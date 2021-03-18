@@ -1,0 +1,96 @@
+/* 
+    header 
+*/
+
+.titulo-cabecalho{
+    position: absolute;
+    top: 0%;
+    margin: 1.5% 0 0 6%;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.navegacao-titulo{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navegacao-titulo:hover{
+    color: #bdbdbd;
+}
+
+.nav-cabecalho{
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 10%;
+    text-align: right;
+}
+
+.li-cabecalho{
+    display: inline-block;
+    margin: 1.9% 2.5% 0 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navegacao-li{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navegacao-li:hover{
+    color: #dadada;
+}
+
+.li-cabecalho:last-child{
+    margin: 0 6% 0 0;
+}
+
+/* 
+    main 
+*/
+
+.main-main{
+    background: #65a8ff;
+}
+
+.caixa-main{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.titulo-principal{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 8% 0 6% 0;
+}
+
+.li-main{
+    display: inline-block;
+}
+
+.li-main:first-child{
+    right: 1%;
+}
+
+.titulo-li{
+    font-size: 1.4em;
+    margin: 3%;
+    font-weight: bold;
+}
+
+.p-li{
+    width: 25%;
+    font-size: 1.2em;
+    margin: auto;
+    display: inline-block;
+    text-align: left;
+}
+
+.img-li-main{
+    width: 17%;
+    float: inline-start;
+}
